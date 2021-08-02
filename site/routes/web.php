@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/curriculo', function () {
-    return view('curriculo');
+Route::get('/produtos', function () {
+    return view('produtos');
 });
