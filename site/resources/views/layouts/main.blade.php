@@ -16,6 +16,29 @@
 
     </head>
     <body>
+        <header>
+            <nav class="navbar navbar-expand-lg nabar-light">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <a href="/" class="navbar-brand">
+                        <img src="download.png" alt="Logo">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li classs="nav-item">
+                            <a href="/" class="nav-link">Evento</a>
+                        </li>
+                        <li classs="nav-item">
+                            <a href="/" class="nav-link">Criar Evento</a>
+                        </li>
+                        <li classs="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                        <li classs="nav-item">
+                            <a href="/" class="nav-link">Cadastrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>            
+        </header>    
         @yield('content')
         <footer>
             <p>Projeto Laravel &copy; 2021 </p>

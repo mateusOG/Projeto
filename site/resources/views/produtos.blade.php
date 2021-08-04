@@ -4,9 +4,13 @@
 
 @section('content') 
 
-<h1>Nome</h1>
-<h2>Peço</h2>
-<h2>Quantidade</h2>
+@if($busca != '')
+
+    <p>Buscando por : {{ $busca }} </p>
+
+@endif
+
+
 <a href='/'>Voltar</a>
 
 @endsection
