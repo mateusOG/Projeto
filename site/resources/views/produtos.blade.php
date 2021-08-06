@@ -10,7 +10,6 @@
 
 @endif
 
-
 <a href='/'>Voltar</a>
 
 @endsection

@@ -17,17 +17,14 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg nabar-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="collapse navbar-collapse" id="navbar">
-                    <a href="/" class="navbar-brand">
-                        <img src="download.png" alt="Logo">
-                    </a>
                     <ul class="navbar-nav">
                         <li classs="nav-item">
                             <a href="/" class="nav-link">Evento</a>
                         </li>
                         <li classs="nav-item">
-                            <a href="/" class="nav-link">Criar Evento</a>
+                            <a href="/events/create" class="nav-link">Criar Evento</a>
                         </li>
                         <li classs="nav-item">
                             <a href="/" class="nav-link">Entrar</a>
@@ -37,11 +34,13 @@
                         </li>
                     </ul>
                 </div>
-            </nav>            
+            </nav> 
         </header>    
         @yield('content')
         <footer>
             <p>Projeto Laravel &copy; 2021 </p>
         </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
