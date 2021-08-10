@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: aqua;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.containar-fluid {
+    padding: 0;
+}
+.btn-primary {
+    background-color: #c28008;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover {
+    background-color: #c28008;
+    border-color: #c28008;
+}
