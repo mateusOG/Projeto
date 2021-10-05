@@ -3,10 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/app.css" media="screen" />
         <title>@yield('title')</title>
 
-        
+     
+        <link href="/css/styles.css" rel="stylesheet" >
+        <link href="/js/app.js" rel="stylesheet" >
+        <link href="/js/bootstrap.js" rel="stylesheet" >
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +42,7 @@
         </header>    
         @yield('content')
         <footer>
-            <p>Projeto Laravel &copy; 2021 </p>
+            <p id=a>Projeto Laravel &copy; 2021 </p>
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

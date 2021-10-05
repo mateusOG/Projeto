@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
     padding-bottom: 100px;
     position: relative;
+    background-color: black;
 }
 
 header {
@@ -25,3 +26,12 @@ header {
     background-color: #c28008;
     border-color: #c28008;
 }
+
+.h1{
+    background-color: #c28008;
+    font-size: 70px;
+}
+
+#a{
+    color: #c28008;  
+  }
